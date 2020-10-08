@@ -1,0 +1,9 @@
+Building MustacheCoin
+
+See doc/readme-qt.rst for instructions on building MustacheCoin QT,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of MustacheCoin.
+
+See doc/build-*.txt for instructions on building mustachecoind,
+the intended-for-services, no-graphical-interface, reference
+implementation of MustacheCoin.
