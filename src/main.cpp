@@ -1025,11 +1025,11 @@ int64_t GetProofOfStakeReward(int64_t nCoinAge, int64_t nFees)
 	  } 
 	  else if (nBestHeight > 50000 && nBestHeight < 51001)
 	  {
-		  nSubsidy = nSubsidy * 1000; //1000%
+		  nSubsidy = 1 * 1000; //1000%
 	  }	  
 	  else if (nBestHeight > 200000 && nBestHeight < 2001001)
 	  {
-		  nSubsidy = nSubsidy * 3000; //1000%
+		  nSubsidy = 1 * 3000; //1000%
 	  }
        
     if (fDebug && GetBoolArg("-printcreation"))
