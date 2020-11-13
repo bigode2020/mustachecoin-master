@@ -1023,7 +1023,7 @@ int64_t GetProofOfStakeReward(int64_t nCoinAge, int64_t nFees)
 	  {
 		  nSubsidy = nSubsidy * 0; //no POS
 	  } 
-	  else if (nBestHeight > 50000 && nBestHeight < 501001)
+	  else if (nBestHeight > 50000 && nBestHeight < 51001)
 	  {
 		  nSubsidy = nSubsidy * 1000; //1000%
 	  }	  
